@@ -1,0 +1,262 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #EEEEEE;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:change;
+    animation-duration: 3s;
+
+    position: absolute;
+
+    animation-fill-mode: both;
+
+    /* animation-delay: 6s; */ 
+}
+
+h2{
+    text-align: center;
+    margin-top: 36px;
+    color: black;
+}
+
+@keyframes change{
+   0%{
+        background-color:#1AACAC;
+        left: 0;
+      
+ }
+
+
+ 100%{
+    background-color: blueviolet; 
+    left: 1370px;     
+    border-radius: 50%;    
+}
+
+} 
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name:second;
+    animation-duration: 3s;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    animation-fill-mode: both;    
+    animation-direction: reverse;
+    animation-delay: 3s;
+}
+@keyframes second{
+   0%{
+        background-color: blueviolet;
+        right: 1370px;   
+        border-radius: 0; 
+               
+ }
+
+ 
+ 100%{
+    background-color: #1AACAC;  
+     
+ }
+
+} 
+
+/* ///////////////////////////////////////////////////// */
+
+
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:change;
+    animation-duration: 3s;
+
+    position: absolute;
+    top: 240px;
+
+    animation-fill-mode: both;
+
+    animation-delay: 6s;
+   
+
+}
+
+@keyframes change{
+   0%{
+        background-color:#1AACAC;
+        left: 0;
+     
+      
+ }
+
+ 100%{
+    background-color: blueviolet; 
+    left: 1370px;
+    border-radius: 50%;     
+   
+}
+
+} 
+
+.div4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name:fourth;
+
+    animation-duration: 3s;
+
+    position: absolute;
+    top: 360px;
+    right: 0;  
+    animation-fill-mode: both;
+    
+    animation-direction: reverse;
+
+    animation-delay: 9s;
+   
+   
+
+}
+
+
+
+@keyframes fourth{
+   0%{
+        background-color: blueviolet;
+        right: 1370px;  ;
+        border-radius: 0%; 
+        /* right: 0; */
+      
+ }
+
+ 100%{
+    background-color: #1AACAC; 
+    right: 0;
+       
+       
+   
+}
+
+} 
+
+
+
+
+.div5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:change;
+    animation-duration: 3s;
+
+    position: absolute;
+    top: 480px;
+    right: 0;
+    animation-fill-mode: both;
+    animation-delay: 12s;
+   
+
+}
+
+@keyframes change{
+   0%{
+        background-color:#1AACAC;
+        left: 0;
+      
+ }
+
+
+ 100%{
+    background-color: blueviolet; 
+    left: 1370px;     
+    border-radius: 50%;    
+}
+
+} 
+
+
+
+/* .div7{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: grey;
+   position: absolute;
+   right: 0;
+   animation: test 5s;
+   animation-fill-mode: both;
+   animation-direction: reverse;
+
+   animation-delay: 3s;
+}
+
+@keyframes test{
+   0%{
+      border-radius:0 ;
+     right: 1370px;
+   }
+
+   100%{    
+     
+   }
+}
+
+
+ */
+
+
+
+.div6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name:six;
+    animation-duration: 3s;
+
+    position: absolute;
+    top: 600px;
+    right: 0;
+
+    animation-fill-mode: both;
+    
+    animation-direction: reverse;
+
+    animation-delay: 15s;
+   
+   
+
+}
+
+
+
+@keyframes six{
+   0%{
+        background-color: blueviolet;
+        right: 1370px;  ;
+        border-radius: 0%; 
+        /* right: 0; */
+      
+ }
+
+ 100%{
+    background-color: #1AACAC;        
+}
+
+} 
+
